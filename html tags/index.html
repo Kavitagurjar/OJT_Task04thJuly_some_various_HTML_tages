@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, section, article, aside, footer {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>HTML Tags Demonstration</h1>
+    </header>
+     <section id="text-formatting">
+        <h2>Text Formatting</h2>
+        <p>This is a paragraph.</p>
+        <p><strong>Strong text</strong> and <em>emphasized text</em>.</p>
+        <p><u>Underlined text</u> and <small>small text</small>.</p>
+        <p><mark>Marked text</mark> and <del>deleted text</del>.</p>
+        <p><ins>Inserted text</ins>.</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Line break example<br>Next line of text.</p>
+        <hr>
+    </section>
+
+    <section id="lists">
+        <h2>List Tags</h2>
+        <h3>Unordered List & Ordered List</h3>
+        <ul>
+            <li>Fruits</li>
+             <ol>
+                <li>Mangoes</li>
+                <li>Banana</li>
+                <li>Apples</li>
+            </ol>
+            <li>Vegetables</li>
+            <ol>
+                <li>Tomatos</li>
+                <li>Potatoes</li>
+                <li>Cucumber</li>
+            </ol>
+            <li>Dairy Products</li>
+            <ol>
+                <li>Milk</li>
+                <li>Cheese</li>
+                <li>Butter</li>
+            </ol>
+        </ul>
+
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </section>
+
+    <section id="Link Tags">
+        <h2>Link Tags and Images</h2>
+        <a href="https://www.google.com/">Google</a>
+        <br><br>
+        <a href="https://nstidehradun.dgt.gov.in/">NSTI Dehradun</a>
+        <br><br>
+        <a href="https://kavitagurjar09095@gmail.com">Gmail</a>
+         <p>This is an image:</p>
+        <img src="https://lh3.googleusercontent.com/p/AF1QipNPra-ZEJLCKI9QYuqD4-Wi8QhbaKmV-SZd_Bsi=s680-w680-h510" alt="Placeholder Image"> 
+    </section>
+
+
+    <section id="Multimedia Tags">
+        <h2>Multimedia Tags</h2>
+        <audio controls>
+            <source src="path/to/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3>Video</h3>
+        <video controls, style= height:"100px";>
+            <source src="\Image\WhatsApp Video 2024-07-11 at 10.45.39 AM.mp4\" type="video/mp4">
+        </video>   
+    </section>
+
+    <section id="Tables">
+        <h2>Tables</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Kavita</td>
+                    <td>23</td>
+                    <td>Bareilly</td>
+                </tr>
+                <tr>
+                    <td>Ramakant</td>
+                    <td>25</td>
+                    <td>Kanpur</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Kunjesh</td>
+                    <td>20</td>
+                    <td>Bihar</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="Forms">
+ <h2>Forms</h2>
+        <form action="submit-form.php" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <section id="Semantic Tags">
+        <h2>Semantic Tags</h2>
+        <article>
+            <header>
+                <h3>Article Header</h3>
+            </header>
+            <p>This is an article.</p>
+            <footer>Article Footer</footer>
+        </article>
+    </section>
+
+     <section id="semantic-tags">
+        <h2>Semantic Tags</h2>
+        <article>
+            <header>
+                <h3>Article Header</h3>
+            </header>
+            <p>This is an article.</p>
+            <footer>Article Footer</footer>
+        </article>
+        <aside>
+            <p>This is an aside section.</p>
+        </aside>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <figcaption>This is a caption for the image.</figcaption>
+        </figure>
+    </section>
+    <footer>
+    <p>&copy; 2024 HTML Tags Demonstration</p>
+</footer>
+
+<script>
+    console.log("Hello, world!");
+</script>
+
+
+
+    </body>
+    </html>
+        
